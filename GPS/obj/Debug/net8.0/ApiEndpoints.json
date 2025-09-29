@@ -1,0 +1,84 @@
+[
+  {
+    "ContainingType": "GPS.Controllers.PontosController",
+    "Method": "Get",
+    "RelativePath": "api/Pontos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GPS.DTOs.PontosInteresseDTO, GPS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GPS.Controllers.PontosController",
+    "Method": "Post",
+    "RelativePath": "api/Pontos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pontosDTO",
+        "Type": "GPS.DTOs.PontosInteresseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GPS.DTOs.PontosInteresseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GPS.Controllers.PontosController",
+    "Method": "Get",
+    "RelativePath": "api/Pontos/PontosInteresse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "y",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "dist",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GPS.DTOs.PontosInteresseDTO, GPS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

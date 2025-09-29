@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPS", "GPS\GPS.csproj", "{4EE8399C-06BA-42C8-ACA6-298E6B051736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{7B578DB7-9308-44C2-87A0-6DE18D26798E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EE8399C-06BA-42C8-ACA6-298E6B051736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE8399C-06BA-42C8-ACA6-298E6B051736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE8399C-06BA-42C8-ACA6-298E6B051736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE8399C-06BA-42C8-ACA6-298E6B051736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B578DB7-9308-44C2-87A0-6DE18D26798E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B578DB7-9308-44C2-87A0-6DE18D26798E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B578DB7-9308-44C2-87A0-6DE18D26798E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B578DB7-9308-44C2-87A0-6DE18D26798E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

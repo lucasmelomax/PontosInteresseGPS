@@ -1,0 +1,51 @@
+## Ignore arquivos temporários do Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore build outputs
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+
+## Ignore pacotes NuGet locais
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.NuGet.config
+
+## Ignore caches e temporários
+*.cache
+*.config
+*.dbmdl
+*.bak
+*.log
+*.tmp
+
+## Ignore arquivos de publish
+publish/
+*.Publish.xml
+
+## Ignore configurações locais
+*.userprefs
+*.local
+*.swp
+
+## Ignore arquivos do Resharper/Rider
+_ReSharper*/
+*.DotSettings.user
+.idea/
+*.iml
+
+## Ignore arquivos de test coverage
+*.coverage
+*.coveragexml
+TestResults/
+
+## Ignore arquivos do sistema operacional
+.DS_Store
+Thumbs.db
