@@ -1,0 +1,86 @@
+Erros de compilação e ficheiros de saída
+
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Aa]rm/
+[Aa]rm64/
+[Xx]64/
+[Xx]86/
+[Tt]est[Rr]esults/
+
+Visual Studio
+
+.vs/
+*.user
+*.userosscache
+*.sln.docuser
+*.suo
+*.userprefs
+*.ide/
+*.ncb
+*.opendb
+*.pch
+*.sbr
+*.scc
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.cache
+*.ilk
+*.log
+*.pdb
+.vshost.
+*.VC.db
+*.sln.metaproj
+*.dbmdl
+*.jfm
+
+Visual Studio Code
+
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+JetBrains Rider
+
+.idea/
+*.sln.iml
+
+Segredos e Configurações de Ambiente
+
+.env
+.env.*
+appsettings.Development.json
+usersecrets.json
+
+Docker
+
+.dockerignore
+docker-compose.override.yml
+
+Ferramentas de Base de Dados e Migrations
+
+*.db
+*.sqlite
+*.sdf
+*.mdf
+*.ldf
+
+Pacotes NuGet
+
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+
+Ficheiros do Sistema Operativo
+
+Thumbs.db
+desktop.ini
+.DS_Store
